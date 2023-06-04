@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Začeti sestavlajti projekte s Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create React App je udobno okolje za učenje Reacta in najboljši način za začetek gradnje nove enostranske aplikacije v Reactu.
 
-## Available Scripts
+Skrbi za konfiguracijo vašega razvojnega okolja za uporabo najnovejših funkcij JavaScript, zagotavlja odlično razvojno izkušnjo in optimizira vašo aplikacijo za produkcijo. 
 
-In the project directory, you can run:
+Preden ustvarimo nov React projekt, moramo namestiti program `npx`, (vgrajen v npm v5.2+), ki izvaja pakete:
+
+`npm install -g npx`
+
+V računalniku morate imeti nameščen `Node >= 14.0.0` in `npm >= 5.6`. Če želite ustvariti projekt, vtipkajte:
+
+`npx create-react-app moja-app`
+
+`cd moja-app`
+
+`npm start`
+
+## Skripti na razpolago
+
+V imeniku projekta lahko vtipkajte:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Aplikacijo zažene v razvojnem načinu.\
+Odprite [http://localhost:3000](http://localhost:3000) in si jo oglejte v brskalniku.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Stran se bo ponovno naložila, ko boste izvedli spremembe.\
+V konzoli lahko vidite tudi morebitne napake lint.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Zgradi aplikacijo za produkcijo v mapo `build`.\
+Pravilno poveže React v produkcijskem načinu in optimizira gradnjo za najboljšo zmogljivost.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Namestitev
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Zgradba je pomanjšana, imena datotek pa vključujejo hashe.\
+Vaša aplikacija je pripravljena za namestitev!
 
-### `npm run eject`
+Za več informacij glejte razdelek o [nameščanju](https://facebook.github.io/create-react-app/docs/deployment).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To poglavje se je preselilo sem: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm run build` ne uspe pomanjšati
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To poglavje je bilo premaknjeno sem: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
