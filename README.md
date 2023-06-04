@@ -33,15 +33,7 @@ V konzoli lahko vidite tudi morebitne napake lint.
 Zgradi aplikacijo za produkcijo v mapo `build`.\
 Pravilno poveže React v produkcijskem načinu in optimizira gradnjo za najboljšo zmogljivost.
 
-#### Namestitev
+## Namestitev
 
 Zgradba je pomanjšana, imena datotek pa vključujejo hashe.\
 Vaša aplikacija je pripravljena za namestitev!
-
-Za več informacij glejte razdelek o [nameščanju](https://facebook.github.io/create-react-app/docs/deployment).
-
-To poglavje se je preselilo sem: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` ne uspe pomanjšati
-
-To poglavje je bilo premaknjeno sem: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
